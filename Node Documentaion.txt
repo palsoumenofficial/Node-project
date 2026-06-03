@@ -1,0 +1,18 @@
+Create file => app.js
+Run cmd => node app.js
+Run on PORT => 
+const http = require("http");
+http.createServer((req,res)=>{
+    res.write("Hello World");
+    res.end();
+}).listen(3000);
+
+NPM installs libraries => npm init -y
+
+INSTALL EXPRESS => npm i express
+INSTALL DOTENV => npm i dotenv
+INSTALL CORS => npm i cors
+INSTALL NODEMAILER => npm i nodemailer
+INSTALL NODEMON => npm i nodemon
+INSTALL DOTENV => npm i dotenv ---> then create .env file
+INSTALL SOCKET => npm install socket.io
